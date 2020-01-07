@@ -7,5 +7,11 @@ A pole is attached by an un-actuated joint to a cart, which moves along a fricti
 
 
 
-![CartPole-v1](https://o6rtmg.bn.files.1drv.com/y4miIg5fG6v2svBOdFTAVlqQsF_MWVrVB0eXXNBkUCfCMq_JgX8RhAFb_GKVEa3BDZq2zK5Z3FoKknToMa_5V01T5kgblO7BGFRFTpfeddZ98Vbp7mOBZ0I9VL4wtUj7PItPlTnkg5AjgU6gWShr0jwXNynl2jnj2-enSVaLxcSsFP9GqQNCRVBNG5t6WdhbN9wkvGd4u6IEBK4DfqFMDSiPQ?width=600&height=400&cropmode=none)
 
+Approaches
+1. random movements
+in this approach we choose an random action (left or right) given a paticular state of the enviroment. needles to say this approach performs very poorly because it does not take into consideration the present state.
+this approach because of its random nature is quite un predictable. On 10 trails runs the max time of survival is 118 timesteps and acg survival time of about 21 time steps which is pretty bad.
+
+
+![CartPole-v1](https://github.com/adibyte95/CartPole-OpenAI-GYM/blob/master/gif%20images/random.gif)
