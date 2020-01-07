@@ -15,3 +15,9 @@ this approach because of its random nature is quite un predictable. On 10 trails
 
 
 ![CartPole-v1](https://github.com/adibyte95/CartPole-OpenAI-GYM/blob/master/gif%20images/random.gif)
+
+
+2. using deep neural networks
+in this approach we take generate training data by randomly taking actions on the enviromnent . if the run is succesful that is the pole is balanced on the cart from more than 100 time steps we add this example to out training set. this approach aims that we can learn how to balance the pole by learning from good training examples. we then fit the model to this training data and try to predict the outcome that is action for any new observation.
+
+![CartPole-v1](https://github.com/adibyte95/CartPole-OpenAI-GYM/blob/master/gif%20images/nn.gif)
