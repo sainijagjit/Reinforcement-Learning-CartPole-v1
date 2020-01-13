@@ -14,7 +14,7 @@ in this approach we choose an random action (left or right) given a paticular st
 this approach because of its random nature is quite un predictable. On 10 trails runs the max time of survival is 118 timesteps and acg survival time of about 21 time steps which is pretty bad.
 
 
-![CartPole-v1](https://github.com/adibyte95/CartPole-OpenAI-GYM/blob/master/gif%20images/random.gif)
+![CartPole-v1](https://github.com/sainijagjit/Reinforcement-Learning-CartPole-v1/blob/master/random.gif)
 
 
 2. using deep neural networks
