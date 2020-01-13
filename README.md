@@ -11,8 +11,7 @@ A pole is attached by an un-actuated joint to a cart, which moves along a fricti
 Approaches
 1. random movements
 in this approach we choose an random action (left or right) given a paticular state of the enviroment. need not to say this approach performs very poorly because it does not take into consideration the present state.
-this approach because of its random nature is quite un predictable. On 10 trails runs the max time of survival is 118 timesteps and acg survival time of about 21 time steps which is pretty bad.
-
+this approach because of its random nature is quite un predictable.
 
 ![CartPole-v1](https://github.com/sainijagjit/Reinforcement-Learning-CartPole-v1/blob/master/random.gif)
 
